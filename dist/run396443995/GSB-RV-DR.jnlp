@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="GSB-RV-DR.jnlp">
+  <information>
+    <title>GSB-RV-DR</title>
+    <vendor>etudiant</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="GSB-RV-DR.jar" size="13971" download="eager" />
+    <jar href="lib/mysql-connector-java-3.1.14.jar" size="459094" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="gsb.rv.dr.GSBRVDR"  name="GSB-RV-DR" />
+  <update check="always"/>
+</jnlp>
